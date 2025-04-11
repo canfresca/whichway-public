@@ -71,6 +71,27 @@
             font-size: 0.9em;
             color: #666;
         }
+        .how-it-works {
+            margin-bottom: 40px;
+        }
+        .screenshot-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .screenshot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .screenshot img {
+            border-radius: 8px;
+        }
+        .screenshot .caption {
+            font-size: 0.9em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -98,6 +119,32 @@
             <li>Simple, intuitive interface</li>
             <li>Privacy-focused design</li>
         </ul>
+    </div>
+
+    <div class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="screenshot-container">
+            <div class="screenshot">
+                <img src="images/screenshot-home.png" alt="WhichWay Home Screen" width="200">
+                <p>Home</p>
+                <p class="caption">App Home Screen</p>
+            </div>
+            <div class="screenshot">
+                <img src="images/screenshot-photo.png" alt="WhichWay Photo Selection" width="200">
+                <p>Add Photo</p>
+                <p class="caption">Select or take a photo of your options</p>
+            </div>
+            <div class="screenshot">
+                <img src="images/screenshot-preferences.png" alt="WhichWay Preferences" width="200">
+                <p>Type Preferences</p>
+                <p class="caption">Tell us what your'e in the mood for</p>
+            </div>
+            <div class="screenshot">
+                <img src="images/screenshot-recommendation.png" alt="WhichWay Recommendation" width="200">
+                <p>Get Recommendation</p>
+                <p class="caption">Get your suggestions</p>
+            </div>
+        </div>
     </div>
 
     <div class="secondary-links">
