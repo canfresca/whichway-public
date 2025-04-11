@@ -23,14 +23,14 @@ These are static HTML pages with inline CSS for simplicity. No build process is 
 ## Deployment
 
 This repository is configured to use GitHub Pages for hosting, making the content available at:
-https://nostove.github.io/whichway-public/
+https://canfresca.github.io/whichway-public/
 
 ## URLs for App Store Submission
 
 Use these URLs in your App Store Connect and Google Play Console submissions:
 
-- Privacy Policy: https://nostove.github.io/whichway-public/privacy.html
-- Support URL: https://nostove.github.io/whichway-public/support.html
+- Privacy Policy: https://canfresca.github.io/whichway-public/privacy.html
+- Support URL: https://canfresca.github.io/whichway-public/support.html
 
 ## Maintenance
 
